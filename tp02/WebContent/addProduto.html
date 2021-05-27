@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Produtos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+	
+<body>
+
+	<h1>Adicionar Novo Produto</h1>
+	<form action="SaveServlet" method="post">
+		<table>
+			<tr>
+				<td>Nome:</td>
+				<td>
+					<input type="text" name="nome" autocomplete="off"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Descrição:</td>
+				<td>
+					<input type="text" name="descricao" autocomplete="off"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Unidade de Compra:</td>
+				<td>
+					<input type="number" name="unidadeCompra" autocomplete="off"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Quantidade Previsto / Mês:</td>
+				<td>
+					<input type="number" name="qtdPrevistoMes" autocomplete="off"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Preço Máximo Comprado:</td>
+				<td>
+					<input type="number" name="precoMaxComprado" autocomplete="off"/>
+				</td>
+			</tr>
+			<tr>
+				<td  colspan="2" class="save-button">
+					<input type="submit" class="blue-button" value="Salvar Produto"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<br/>
+	<a href="index.html" class="blue-button back-button">Menu</a>
+</body>
+</html>
