@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Salesman</title>
+<link rel="stylesheet" href="style.css">
+</head>
+	
+<body>
+
+	<h1>Add New Customer</h1>
+	<form action="SaveCustomer" method="post">
+		<table>
+			<tr>
+				<td>Customer Name:</td>
+				<td>
+					<input type="text" name="custName" autocomplete="off"/>
+				</td>
+			</tr>
+			<tr>
+				<td>City:</td>
+				<td>
+					<input type="text" name="city" autocomplete="off"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Grade:</td>
+				<td>
+					<input type="number" name="grade" autocomplete="off"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Salesman Code:</td>
+				<td>
+					<input type="number" name="salesmanId" autocomplete="off"/>
+				</td>
+			</tr>
+			<tr>
+				<td  colspan="2" class="save-button">
+					<input type="submit" class="blue-button" value="Save Customer"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<br/>
+	<a href="index.html" class="blue-button back-button">Menu</a>
+</body>
+</html>

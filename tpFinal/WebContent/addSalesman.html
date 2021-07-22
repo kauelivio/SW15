@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Salesman</title>
+<link rel="stylesheet" href="style.css">
+</head>
+	
+<body>
+
+	<h1>Add New Salesman</h1>
+	<form action="SaveSalesman" method="post">
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td>
+					<input type="text" name="name" autocomplete="off"/>
+				</td>
+			</tr>
+			<tr>
+				<td>City:</td>
+				<td>
+					<input type="text" name="city" autocomplete="off"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Commission:</td>
+				<td>
+					<input type="number" name="commission" autocomplete="off"/>
+				</td>
+			</tr>
+			<tr>
+				<td  colspan="2" class="save-button">
+					<input type="submit" class="blue-button" value="Save Salesman"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<br/>
+	<a href="index.html" class="blue-button back-button">Menu</a>
+</body>
+</html>
